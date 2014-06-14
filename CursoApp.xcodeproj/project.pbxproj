@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA1BAF5194C6D2800CFD0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BAF4194C6D2800CFD0AE /* Foundation.framework */; };
+		ECA1BAF7194C6D2800CFD0AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BAF6194C6D2800CFD0AE /* CoreGraphics.framework */; };
+		ECA1BAF9194C6D2800CFD0AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BAF8194C6D2800CFD0AE /* UIKit.framework */; };
+		ECA1BAFF194C6D2800CFD0AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA1BAFD194C6D2800CFD0AE /* InfoPlist.strings */; };
+		ECA1BB01194C6D2800CFD0AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1BB00194C6D2800CFD0AE /* main.m */; };
+		ECA1BB05194C6D2800CFD0AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1BB04194C6D2800CFD0AE /* AppDelegate.m */; };
+		ECA1BB07194C6D2800CFD0AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA1BB06194C6D2800CFD0AE /* Images.xcassets */; };
+		ECA1BB0E194C6D2800CFD0AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BB0D194C6D2800CFD0AE /* XCTest.framework */; };
+		ECA1BB0F194C6D2800CFD0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BAF4194C6D2800CFD0AE /* Foundation.framework */; };
+		ECA1BB10194C6D2800CFD0AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA1BAF8194C6D2800CFD0AE /* UIKit.framework */; };
+		ECA1BB18194C6D2800CFD0AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA1BB16194C6D2800CFD0AE /* InfoPlist.strings */; };
+		ECA1BB1A194C6D2800CFD0AE /* CursoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1BB19194C6D2800CFD0AE /* CursoAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA1BB11194C6D2800CFD0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA1BAE9194C6D2800CFD0AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA1BAF0194C6D2800CFD0AE;
+			remoteInfo = CursoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA1BAF1194C6D2800CFD0AE /* CursoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA1BAF4194C6D2800CFD0AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECA1BAF6194C6D2800CFD0AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECA1BAF8194C6D2800CFD0AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECA1BAFC194C6D2800CFD0AE /* CursoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CursoApp-Info.plist"; sourceTree = "<group>"; };
+		ECA1BAFE194C6D2800CFD0AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA1BB00194C6D2800CFD0AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA1BB02194C6D2800CFD0AE /* CursoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CursoApp-Prefix.pch"; sourceTree = "<group>"; };
+		ECA1BB03194C6D2800CFD0AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA1BB04194C6D2800CFD0AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA1BB06194C6D2800CFD0AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECA1BB0C194C6D2800CFD0AE /* CursoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA1BB0D194C6D2800CFD0AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECA1BB15194C6D2800CFD0AE /* CursoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CursoAppTests-Info.plist"; sourceTree = "<group>"; };
+		ECA1BB17194C6D2800CFD0AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA1BB19194C6D2800CFD0AE /* CursoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CursoAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA1BAEE194C6D2800CFD0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BAF7194C6D2800CFD0AE /* CoreGraphics.framework in Frameworks */,
+				ECA1BAF9194C6D2800CFD0AE /* UIKit.framework in Frameworks */,
+				ECA1BAF5194C6D2800CFD0AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA1BB09194C6D2800CFD0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BB0E194C6D2800CFD0AE /* XCTest.framework in Frameworks */,
+				ECA1BB10194C6D2800CFD0AE /* UIKit.framework in Frameworks */,
+				ECA1BB0F194C6D2800CFD0AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA1BAE8194C6D2800CFD0AE = {
+			isa = PBXGroup;
+			children = (
+				ECA1BAFA194C6D2800CFD0AE /* CursoApp */,
+				ECA1BB13194C6D2800CFD0AE /* CursoAppTests */,
+				ECA1BAF3194C6D2800CFD0AE /* Frameworks */,
+				ECA1BAF2194C6D2800CFD0AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA1BAF2194C6D2800CFD0AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BAF1194C6D2800CFD0AE /* CursoApp.app */,
+				ECA1BB0C194C6D2800CFD0AE /* CursoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA1BAF3194C6D2800CFD0AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BAF4194C6D2800CFD0AE /* Foundation.framework */,
+				ECA1BAF6194C6D2800CFD0AE /* CoreGraphics.framework */,
+				ECA1BAF8194C6D2800CFD0AE /* UIKit.framework */,
+				ECA1BB0D194C6D2800CFD0AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA1BAFA194C6D2800CFD0AE /* CursoApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BB03194C6D2800CFD0AE /* AppDelegate.h */,
+				ECA1BB04194C6D2800CFD0AE /* AppDelegate.m */,
+				ECA1BB06194C6D2800CFD0AE /* Images.xcassets */,
+				ECA1BAFB194C6D2800CFD0AE /* Supporting Files */,
+			);
+			path = CursoApp;
+			sourceTree = "<group>";
+		};
+		ECA1BAFB194C6D2800CFD0AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BAFC194C6D2800CFD0AE /* CursoApp-Info.plist */,
+				ECA1BAFD194C6D2800CFD0AE /* InfoPlist.strings */,
+				ECA1BB00194C6D2800CFD0AE /* main.m */,
+				ECA1BB02194C6D2800CFD0AE /* CursoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA1BB13194C6D2800CFD0AE /* CursoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BB19194C6D2800CFD0AE /* CursoAppTests.m */,
+				ECA1BB14194C6D2800CFD0AE /* Supporting Files */,
+			);
+			path = CursoAppTests;
+			sourceTree = "<group>";
+		};
+		ECA1BB14194C6D2800CFD0AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1BB15194C6D2800CFD0AE /* CursoAppTests-Info.plist */,
+				ECA1BB16194C6D2800CFD0AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA1BAF0194C6D2800CFD0AE /* CursoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA1BB1D194C6D2800CFD0AE /* Build configuration list for PBXNativeTarget "CursoApp" */;
+			buildPhases = (
+				ECA1BAED194C6D2800CFD0AE /* Sources */,
+				ECA1BAEE194C6D2800CFD0AE /* Frameworks */,
+				ECA1BAEF194C6D2800CFD0AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CursoApp;
+			productName = CursoApp;
+			productReference = ECA1BAF1194C6D2800CFD0AE /* CursoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA1BB0B194C6D2800CFD0AE /* CursoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA1BB20194C6D2800CFD0AE /* Build configuration list for PBXNativeTarget "CursoAppTests" */;
+			buildPhases = (
+				ECA1BB08194C6D2800CFD0AE /* Sources */,
+				ECA1BB09194C6D2800CFD0AE /* Frameworks */,
+				ECA1BB0A194C6D2800CFD0AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA1BB12194C6D2800CFD0AE /* PBXTargetDependency */,
+			);
+			name = CursoAppTests;
+			productName = CursoAppTests;
+			productReference = ECA1BB0C194C6D2800CFD0AE /* CursoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA1BAE9194C6D2800CFD0AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cit;
+				TargetAttributes = {
+					ECA1BB0B194C6D2800CFD0AE = {
+						TestTargetID = ECA1BAF0194C6D2800CFD0AE;
+					};
+				};
+			};
+			buildConfigurationList = ECA1BAEC194C6D2800CFD0AE /* Build configuration list for PBXProject "CursoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECA1BAE8194C6D2800CFD0AE;
+			productRefGroup = ECA1BAF2194C6D2800CFD0AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA1BAF0194C6D2800CFD0AE /* CursoApp */,
+				ECA1BB0B194C6D2800CFD0AE /* CursoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA1BAEF194C6D2800CFD0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BAFF194C6D2800CFD0AE /* InfoPlist.strings in Resources */,
+				ECA1BB07194C6D2800CFD0AE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA1BB0A194C6D2800CFD0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BB18194C6D2800CFD0AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA1BAED194C6D2800CFD0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BB05194C6D2800CFD0AE /* AppDelegate.m in Sources */,
+				ECA1BB01194C6D2800CFD0AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA1BB08194C6D2800CFD0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1BB1A194C6D2800CFD0AE /* CursoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA1BB12194C6D2800CFD0AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA1BAF0194C6D2800CFD0AE /* CursoApp */;
+			targetProxy = ECA1BB11194C6D2800CFD0AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA1BAFD194C6D2800CFD0AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA1BAFE194C6D2800CFD0AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECA1BB16194C6D2800CFD0AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA1BB17194C6D2800CFD0AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA1BB1B194C6D2800CFD0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA1BB1C194C6D2800CFD0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA1BB1E194C6D2800CFD0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoApp/CursoApp-Prefix.pch";
+				INFOPLIST_FILE = "CursoApp/CursoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECA1BB1F194C6D2800CFD0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoApp/CursoApp-Prefix.pch";
+				INFOPLIST_FILE = "CursoApp/CursoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECA1BB21194C6D2800CFD0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CursoApp.app/CursoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoApp/CursoApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CursoAppTests/CursoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECA1BB22194C6D2800CFD0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CursoApp.app/CursoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CursoApp/CursoApp-Prefix.pch";
+				INFOPLIST_FILE = "CursoAppTests/CursoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA1BAEC194C6D2800CFD0AE /* Build configuration list for PBXProject "CursoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA1BB1B194C6D2800CFD0AE /* Debug */,
+				ECA1BB1C194C6D2800CFD0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA1BB1D194C6D2800CFD0AE /* Build configuration list for PBXNativeTarget "CursoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA1BB1E194C6D2800CFD0AE /* Debug */,
+				ECA1BB1F194C6D2800CFD0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA1BB20194C6D2800CFD0AE /* Build configuration list for PBXNativeTarget "CursoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA1BB21194C6D2800CFD0AE /* Debug */,
+				ECA1BB22194C6D2800CFD0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA1BAE9194C6D2800CFD0AE /* Project object */;
+}
